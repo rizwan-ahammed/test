@@ -19,7 +19,7 @@ with DAG(
     # Task 1: Run a bash command to print "Hello World"
     bash_task = BashOperator(
         task_id='bash_hello_world',
-        bash_command='echo "Hello World from Bash!"'
+        bash_command='echoo "Hello World from Bash!"'
     )
 
     # Task 2: Run a Python function to print "Hello World"
